@@ -13,5 +13,9 @@ describe "fizzbuzz test" do
 		expect(15.fizzbuzz2).to eq "fizzbuzz"
 	end
 
+	it "returns '4' when passed 4" do
+		expect(4.fizzbuzz2).to eq 4
+	end
+
 end
 
